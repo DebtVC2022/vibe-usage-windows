@@ -1,0 +1,18 @@
+# Recommended root .gitignore if publishing this project from the vibe-usage-windows root.
+
+app/node_modules/
+app/dist/
+app/dist-installer/
+app/src-tauri/target/
+app/src-tauri/gen/
+docs/superpowers/
+
+*.log
+*.tmp
+*.zip
+*.exe
+
+# Personal Obsidian graph files. Keep private unless intentionally publishing them.
+资料索引.md
+**/资料索引.md
+**/*.core.md
